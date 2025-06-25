@@ -15,5 +15,5 @@
     * tab 2 build in audio check
     * tab 3 frames 18, format webm, videocodec vp8, quality 9
     * Enable showclick, Enable Halo
-   * on `server` remove or backup `~/dexsetup` and `~/.bitcoin` `~/.litecoin` ... they could stay for reinstall or update cases
+   * On `server` remove or backup `~/dexsetup` and `~/.bitcoin` `~/.litecoin` ... they could stay for reinstall or update cases
      
