@@ -1,0 +1,14 @@
+Hi everyone.
+
+In this video tutorial we gonna show you how to setup one of the kind truly fully decentralized crypto currency exchange system by Blocknet named BlockDX.
+
+Target server machine must be local or remote Debian Linux by SSH connection.
+
+Most easy way is to use dexsetup command line interface installer by main web page.
+
+Scrolls down little bit page to see, how setup dexsetup with cli installer.
+
+There are offered two ways to start installer, si we choose second options which is private and anonymous.
+
+There first command
+
