@@ -1,4 +1,4 @@
-### Steps needed to produce this video
+### Steps needed to produce video tutorial for `dexsetup.installer`
   * Have `server` `Debian GNU/Linux with Mate-desktop` installed, but it could be same machine as well.
 ```
 https://www.debian.org/
