@@ -2,35 +2,37 @@ Hi everyone.
 
 In this video tutorial we gonna show you how to setup backend of one of the kind truly fully decentralized peer to peer crypto currency exchange system based on Blocknet interchain service node system named BlockDX.
 
-Due to the number of components and configuration files that make up this system, it was necessary to create a DEXSETUP security setup that takes care of everything with best practices and also securely isolate each component from both user data and the components themselves.
+Due to the number of components and configuration files that make up this system, it was necessary to create a DEXSETUP security setup which purpose is to take care of everything with best practices and also securely isolate each setup process and later each running components from user data and also the components itselves.
 
-It is important for every backend system operator to be able to configure whole system in own specific way and also to manage or update specific components one by one.
+It is important for every backend system operator to be able to configure and tune whole system in own specific way and also to manage or update specific components one by one.
 
 To give you a better idea, here is a list of all technologies and components used by this amazing decentralized exchange system:
 The Debian GNU Linux operating system.
 The Firejail advanced native kernel isolation sandbox technology.
 The Tor multi-hop routing privacy internet layer.
-The Proxychains tor sandbox layer.
+The Proxychains tor networking isolation layer.
 The GNU Screen terminal multiplexer.
 The Tiger VNC remote desktop server.
 The Blocknet fully decentralized interchain service node communication system.
 The Blocknet Xbridge the main API of decentralized exchange system.
-The DEXBOT decentralized exchange automatic trading bot and DEXSETUP trading strategy templates
-The BlockDX graphical user interface app for trading.
+The DEXBOT decentralized exchange automatic trading bot and DEXSETUP trading strategy templates.
+The BlockDX graphical user interface app for decentralized exchange.
 The core node wallets of Bitcoin, Litecoin, Dogecoin, Verge, PIVX, DASH, Lbry Credits, Pocketcoin and Particl.
 The Tor Browser total privacy web browser by tor.
 And the Session privacy messaging app.
 
 Now back from theory into practice.
 
-As the most easy to use endpoint to configure base of this amazing system is dexsetup installer which is exactly topic of this tutorial.
+The most user friendly way how to start with this decentralized exchange system is to setup and configure operating system and components with interactive dexsetup installer which is exactly topic of this tutorial.
 
-Target server machine could be local or remote Debian Linux accessible by SSH connection.
+So first we open main web page of dexsetup command line interface installer, scroll down web page little bit to see, how setup dexsetup with cli installer.
 
-Most easy way is to use main web page of dexsetup command line interface installer.
+Here could be found two options to start installer, for better privacy we choose second options which is private and anonymous.
 
-Scrolls down little bit page to see, how setup dexsetup with cli installer.
+We copy first command used to install and configure base privacy packages.
 
-There are offered two ways to start installer, si we choose second options which is private and anonymous.
+Now we open terminal to open connection to our target server machine which could be remote or also local Debian Linux accessible by SSH connection.
 
-There first command... TODO
+We paste the command which asks for root or sudo password depending on which is configured to manage our system.
+
+This could take a while depending how long we not update our system.
