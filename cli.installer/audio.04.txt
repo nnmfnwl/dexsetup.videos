@@ -1,0 +1,5 @@
+Next is to configure DEXBOT the decentralized exchange automatic liquidity and trading bot.
+
+DEXSETUP installer is using predefined trading strategy templates to generate trading startegy scripts for trading pairs with Litecoin.
+
+This process could take some few seconds, as it is searching for all wallets configuration files to update it according to blocknet decentralized exchange system compatibility.
