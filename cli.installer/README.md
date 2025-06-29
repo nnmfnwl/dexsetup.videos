@@ -61,5 +61,4 @@ https://github.com/nnmfnwl/dexsetup.cli.installer
 https://google.com
 ```
   * Take care to start audio few seconds after video recording because, it suppose to not record audio correctly
-  
-
+  * As voice will never be at sync with video at time of recording, we split text into multiple files to be used as stop at the end of sequence and playlist play next when voice needed again for example in VLC player which can be configured to stop after every media played in playlist.
