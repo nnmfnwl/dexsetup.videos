@@ -1,0 +1,5 @@
+Would we like to auto-configure SESSION default profile. If we in previous step or in previous installation installed or updated session it is recommended to configure or reconfigure default profile.
+
+Optionally, Would we like to install tor-browser ultimate privacy web browser. Even it is not directly related with decentralized exchange trading, the tor browser is still ultimate privacy way to browse web pages. Even access dexsetup pages over tor or VPN is great practice to start or use dexsetup later privately.
+
+This process could take a while because it will download the exchange app itself.
