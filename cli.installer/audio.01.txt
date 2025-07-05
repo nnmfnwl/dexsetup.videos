@@ -2,7 +2,7 @@ Hi everyone.
 
 In this video tutorial we gonna show you how to setup backend of one of the kind truly fully decentralized peer to peer crypto currency exchange system based on Blocknet interchain service node system named BlockDX.
 
-Due to the number of components and configuration files that make up this system, it was necessary to create a DEXSETUP security setup which purpose is to take care of everything with best practices and also securely isolate each setup process and later each running components from user data and also the components itselves.
+Due to the number of components and configuration files that make up this system, it was necessary to create a DEXSETUP security setup which purpose is to take care of everything with best practices and also securely isolate each setup process and later each running components from user data and also the components between each other.
 
 It is important for every backend system operator to be able to configure and tune whole system in own specific way and also to manage or update specific components one by one.
 
@@ -35,4 +35,4 @@ Now we open terminal to open connection to our target server machine which could
 
 We paste the command which asks for root or sudo password depending on which is configured to manage our system.
 
-This could take a while depending how long we not update our system.
+This could take a while depending how long the system not been updated.
