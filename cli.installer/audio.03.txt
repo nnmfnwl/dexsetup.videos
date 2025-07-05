@@ -1,11 +1,11 @@
-After installing wallets, the next step is to setup custom wallet profiles which have separated chain data directory, so user will be able to run them at same time as other wallet used for decentralized exchange trading.
+Next step is to setup custom wallet profiles which could have even separated chain data directory, so user will be able to run them at same time as other wallet used for decentralized exchange trading.
 
 For example we can choose to also configure standalone blocknet wallet for DAO the decentralized autonomous organization, the governance wallet.
 
-Also we can choose to setup standalone staking profiles for blocknet, pocketcoin and PIVX.
+Installer also have predefined to setup standalone staking profiles for blocknet, pocketcoin and PIVX.
 
-Now we choose also yes to configure all wallet profiles for decentralized exchange trading.
+We also choose to configure all wallet profiles for decentralized exchange trading.
 
-So it configures blocknet, litecoin, bitcoin, verge, dogecoin, pivx, dash, libry, pocketcoin and particl.
+So it configures blocknet, litecoin, bitcoin, verge, dogecoin, pivx, dash, libry, pocketcoin and particl wallet nodes.
 
-This process could take some few seconds, as it is searching for all wallets configuration files to update it according to blocknet decentralized exchange system compatibility.
+This process could take some few seconds, as it is analyzing all wallets configuration files to update it according to blocknet decentralized exchange system compatibility.
