@@ -4,36 +4,48 @@ It is very small script, the download could take just a few seconds and right af
 
 But even if you answer yes to install and configure all components, it doesn't matter, because you can always run only those components which you need at time.
 
-Also at any time you can run installer again to install, update or reconfigure just specific needed components.
+Also at any time you can run this installer again to install, update or reconfigure just specific needed components.
 
 Every possible interactive question have two specific arguments which could be used to skip installer interactivity and use it in automatization deployment scripts.
 
-So do we accept MIT license agreement and want to continue with this installer, yes.
+So our first step is to accept MIT license agreement to continue with this installer. Just by pushing Y key.
 
-Would we like to update operating system before installation start. yes.
+Would we like to update operating system before installation start. Yes, because we want to make out system up to date at least for security reasons.
 
-Would we like to install tor and related privacy packages. yes.
+Would we like to install tor and related privacy packages. Yes, because we do not have any other custom tor service installed.
 
-We also answer yes to all other three related command line interface and graphical user interface packages and tools which could be useful later as well.
+Would we like to install mandatory to have command line interface build packages. Yes, because we do not have any other custom build packages installed.
 
-Also we want to control our remote server not only by console but also by VNC over SSH tunnel connection, so we set to configure VNC server with our user profile on server.
+Would we like to install recommended command line interface packages. Yes, because we want all our downloaded data to be check with antivirus also it contains tools like console midnight commander and htop advanced system monitor and other useful tools.
+
+Would we like to install optional graphical user interface build packages. Yes, because we want to use dexsetup environment also with graphical user interface wallets and tools.
+
+Would we like to install optional graphical user interface packages and support for Tiger VNC server. Yes, because we want to manage our server by remote desktop.
+
+Would we like to setup tigervnc server user session to start automatically after startup. Yes, because want to control our remote server not only by console but also by VNC over SSH tunnel connection, so we set to configure VNC server with our user profile on server.
 
 Now above we can see which command for system upgrade will be executed.
 
+Proceed with above system setup/update. Yes.
+
 Command ask for root or sudo password depending on system administration management configuration.
 
-As VNC session configured for our user would not be functional without VNC login password. We must configure it first.
+Would we like to setup VNC user login password. Yes, because VNC session configured for our user would not be functional without VNC login password.
 
-We set first password but view only password we not need.
+We set first password, but view only password is not needed to be configured.
 
-Now installer downloads dexsetup framework itself.
+Now installer downloads dexsetup framework itself. It could take a while, but not too long.
 
-Optimized mate desktop configuration would be very usefull also on fast local connections because it saves lot of traffic which could be problematic even over local wireless connection.
+Would we like to add optimized mate desktop configuration. Yes, because optimized mate desktop configuration will be very useful also on fast local connections because it saves lot of traffic by minimizing desktop effects, which could be problematic even over local wireless connection.
 
 Now we have to choose which wallet to install.
 
-With just one exception of PIVX wallet all will be downloaded and build from source code.
+With just one exception of PIVX wallet all other wallets will be downloaded and build from source code.
 
-This Step could take lot of time so video would be skip few times.
+If we want to dexsetup system to be used as decentralized exchange trading system, the Blocknet wallet as main DEX component is mandatory to install.
 
-Every wallet build or download process let us know if finished success.
+Every wallet build process takes at average 10 minutes, so video will be skip few times.
+
+Process let us know by finished success or with error.
+
+Even if some wallets installation fails, don't worry, the installer could be started again later with just one specific step to setup missing wallet.
