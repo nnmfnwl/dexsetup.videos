@@ -1,0 +1,10 @@
+Before we get into decentralized exchange ecosystem management, lets take a look at newly created dexsetup directory structure and components included.
+
+TODO....
+
+dexsetup itself with many post installation management scripts
+
+wallet source code and separated directory with build wallets
+
+dexbot and generated default strategies
+
