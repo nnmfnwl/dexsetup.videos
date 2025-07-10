@@ -1,10 +1,28 @@
-Before we get into decentralized exchange ecosystem management, lets take a look at newly created dexsetup directory structure and components included.
+So lets take a look what we could find in dexsetup root directory.
 
-TODO....
+All components here have own separated directory.
 
-dexsetup itself with many post installation management scripts
+Lets take a look what could be found for example in Blocknet wallet directory.
+  First is binary files directory where all build binary files are stored. As command line wallet interface, wallet daemon and wallet with graphical user interface.
+  Next is that every wallet profile has own CLI directory where very useful predefined auto-complete commands are stored.
+  There is also directory git source, where all wallet source code been downloaded and compiled.
+  There is also package directory which is used in case when wallet is not build but rather downloaded and extracted from package.
 
-wallet source code and separated directory with build wallets
+  What we could see next are two profile files used to enter secure development environment.
+  And last is that every generated wallet profile as DAO profile, staking profile and decentralized exchange wallet profile.
 
-dexbot and generated default strategies
+Lets back up into main directory where we could find a decentralized exchange bot directory with all generated trading strategies.
+And if we could switch directory to git source code, there could be found trading configuration files itself.
+
+Let back up again into main directory where could be found main dexsetup framework directory which contains all needed scripts for manual customization and manual management.
+Usually users which not need special custom profiles will never touch dexsetup framework itself rather running dexsetup command line installer repeatedly.
+
+In main directory there could be also found Blocknet DX, the graphical user interface for this decentralized exchange system.
+
+As mostly everything been explained, lets start our decentralized exchange instance for the first time.
+So we switch back to installer readme page to copy second command used to start environment with support of graphical user interface mode.
+This could take some few seconds.
+
+As everything been designed to run as user space service, we must learn how to attach to this service and also detach from ad keep all components running.
+So lets use screen x command to attach to command line service.
 
