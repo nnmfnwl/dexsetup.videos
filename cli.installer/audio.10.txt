@@ -1,0 +1,3 @@
+We would need at least two valid addresses for trading, one Blocknet and one Litecoin address.
+      Those two addresses have to be used to reconfigure generated trading bot scripts with real wallet addresses, because only those funds are used with bot which are already sitting on specified addresses, other addresses funds are not touch. It is highly recommended to use one address per one trading strategy.
+      
