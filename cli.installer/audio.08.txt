@@ -1,3 +1,3 @@
-Would we like to auto-configure tor browser default profile. If we previous step installed tor-browser it is recommended to configure or reconfigure default profile.
+Would we like to auto-configure tor-browser default profile. If we previous step installed tor-browser it is recommended to configure or reconfigure default profile.
 
 Now, as all selected components been installed and configured and setup has successfully finished, before we return back to dexsetup installer page and continue according to instructions, at first lets take a look at newly created dexsetup directory structure and components included.
