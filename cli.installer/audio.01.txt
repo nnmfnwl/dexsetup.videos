@@ -31,7 +31,7 @@ Here could be found two options to start installer, for better privacy we choose
 
 We copy first command used to install and configure base privacy packages.
 
-Now we open terminal to open connection to our target server machine which could be remote or also local Debian Linux accessible by SSH connection.
+Now we open terminal on our Debian or Ubuntu server machine, which could be remote or local SSH host or also just a local machine.
 
 We paste the command which asks for root or sudo password depending on which is configured to manage our system.
 
