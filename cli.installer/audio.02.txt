@@ -20,7 +20,7 @@ Would we like to install recommended command line interface packages. Yes, becau
 
 Would we like to install optional graphical user interface build packages. Yes, because we want to use dexsetup environment also with graphical user interface wallets and tools.
 
-Would we like to install optional graphical user interface packages and support for Tiger VNC server. Yes, because we want to manage our server by remote desktop.
+Would we like to install optional graphical user interface packages and support for Tiger VNC server. Yes, because we want to manage our server by remote desktop, but there could be cases or secudity reasons why user want to manage dexsetup by local keyboard only.
 
 Would we like to setup tigervnc server user session to start automatically after startup. Yes, because want to control our remote server not only by console but also by VNC over SSH tunnel connection, so we set to configure VNC server with our user profile on server.
 
