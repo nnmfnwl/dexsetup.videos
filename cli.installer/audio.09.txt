@@ -2,7 +2,7 @@ So lets take a look what we could find in dexsetup root directory.
 
 All components here have own separated directory.
 
-In contrast with other systems architectures which are using virtualization, containers, docker or whatsoever, all dexsetup components are existing as main file system directories configured to be able to run same as in native operating system environment and same as isolated in native kernel features by firejail custom profiles and network isolation by tor by proxychains. It means every running component can not see other user files or other components files, for example Bitcoin wallet component can see chain directory which is by default dot bitcoin and bitcoin binary file.
+In contrast with other systems architectures which are using virtualization, containers, docker or whatsoever, all dex-setup components are existing as main file-system directories configured to be able to run same as in native operating system environment and same as isolated in native kernel features by firejail custom profiles and network isolation by tor by proxy-chains. It means every running component can not see other user files or other components files, for example Bitcoin wallet component can see chain directory which is by default dot bitcoin and bitcoin binary file.
 
 Lets take a look what could be found for example in Blocknet wallet directory.
   First is binary files directory where all build binary files are stored. As command line wallet interface, wallet daemon and wallet with graphical user interface.
@@ -16,13 +16,13 @@ Lets take a look what could be found for example in Blocknet wallet directory.
 Lets back up into main directory where we could find a decentralized exchange bot directory with all generated trading strategies.
 And if we switch directory to git source code, there could be found trading configuration files itself.
 
-Let back up again into main directory where could be found main dexsetup framework directory which contains all needed scripts for manual customization and manual management.
-Usually users which not need special custom profiles will never touch dexsetup framework itself rather running dexsetup command line installer repeatedly.
+Let back up again into main directory where could be found main dex-setup framework directory which contains all needed scripts for manual customization and manual management.
+Usually users which not need special custom profiles will never touch dex-setup framework itself rather running dex-setup command line installer repeatedly.
 
-In main directory there could be also found Blocknet DX, the graphical user interface for this decentralized exchange system.
+In main directory there could be also found Block-DX, the graphical user interface for this decentralized exchange system.
 
 As mostly everything been explained, lets start our decentralized exchange instance for the first time.
-   Instead of starting all components manually inside desktop environment one by one by mouse double clicks, the dexsetup comes with predefined terminal screen multiplexer start script which biggest advantage is that all components becomes manageable also very easy by command line interface. User can in real time watch what log printed into console by component. Also dexsetup advanced console interface features allows us to use lot of predefined predefined commands which could be easy added later.
+   Instead of starting all components manually inside desktop environment one by one by mouse double clicks, the dex-setup comes with predefined terminal screen multiplexer start script which biggest advantage is that all components becomes manageable also very easy by command line interface. User can in real time watch what log printed into console by component. Also dex-setup advanced console interface features allows us to use lot of predefined predefined commands which could be easy added later.
 
 So we switch back to installer readme page to find and copy second command used to start environment with support of graphical user interface mode.
 This will take some few seconds.
@@ -30,7 +30,7 @@ This will take some few seconds.
 As everything been designed to run as user space service, we must learn how to attach to this service command line interface management and also detach from ad keep all components running.
    So lets use screen x command to attach to command line service.
    Now we So we use keyboard shortcut to list components and choose which we want to start.
-      For example If we would like to use DEXSETUP just for PIVX staking, so we choose PIVX staking component, we can see here is predefined command, just enter key confirmations is needed.
+      For example If we would like to use dex-setup just for PIVX staking, so we choose PIVX staking component, we can see here is predefined command, just enter key confirmations is needed.
       It looks like native PIVX wallet is been started, but in real, everything is started isolated inside system and network sandbox by firejail and tor service.
 
       But what if we want to use decentralized exchange to trading Blocknet with Litecoin.
