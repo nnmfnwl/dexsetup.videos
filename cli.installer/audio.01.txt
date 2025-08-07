@@ -1,10 +1,12 @@
 Hi everyone.
 
-In this video tutorial we gonna show you how to setup backend of one of the kind truly fully decentralized peer-to-peer crypto currency exchange system based on Blocknet interchain service node system named Block DX.
+In this video tutorial we gonna show you how to setup backend of one of the kind truly and fully-decentralized peer-to-peer crypto currency exchange system based on Blocknet interchain service node system named also as Block DX.
 
-Due to the number of components and configuration files that make up this system, it was necessary to create a dex-setup security framework which is set of many tools which purpose is to take care of everything according to best practices and also securely isolate each setup process and later each running components from user space data and also the components between each other.
+This whole system is not one monolithic component, rather it is ecosystem of many independently running components isolated inside own small environments which are communicating over predefined communication channels.
 
-Dex-setup framework is also important for every backend core system operator to be able to configure and tune whole system in own specific way and also to manage or update specific components one by one.
+And due to the number of components and configuration files that make up this system, it was necessary to create a dex-setup security framework which is set of many tools which purpose is to take care of everything according to best practices and also securely isolate each setup process and later each running components from user space data and also the components between each other.
+
+Dex-setup framework is also important for every backend core system operator to be able to configure and tune whole system in own specific way and also to manage or update or reconfigure just specific components one by one.
 
 To give you a better idea, here is a list of all technologies and components used by this amazing decentralized exchange system:
 The Debian GNU Linux operating system.
@@ -23,11 +25,11 @@ And the Session privacy messaging app.
 
 Now back from theory into practice.
 
-The most user friendly way how to start with this decentralized exchange system is to setup and configure operating system and components with interactive dexsetup installer which is exactly topic of this tutorial.
+The most user friendly way how to start with this decentralized exchange system is to setup and configure operating system and components with interactive dex-setup command-line installer which is exactly topic of this tutorial.
 
-So first we open main web page of dexsetup command line interface installer, scroll down web page little bit to see, how setup dexsetup with cli installer.
+So first we open main web page of dex-setup command line interface installer, scroll down web page little bit to see, how setup dex-setup with cli installer.
 
-Here could be found two options to start installer, for better privacy we choose second options which is private and anonymous.
+Here could be found two options to start installer, for full privacy we choose second options which is from very beginning private and anonymous. Otherwise downloading installer over clear-net expose our IP address.
 
 We copy first command used to install and configure base privacy packages.
 
