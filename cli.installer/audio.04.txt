@@ -1,6 +1,6 @@
-Next is to configure DEXBOT the decentralized exchange automatic liquidity and trading bot.
+Next is to configure Dex-Bot the decentralized exchange automatic liquidity and trading bot.
 
-DEXSETUP installer contains predefined trading strategy configurations which are applied on predefined dexbot default template to generate trading strategy configuration and start scripts. Trading pairs are for now configure by default with Litecoin.
+Dex-setup installer contains predefined trading strategy configurations which are applied on predefined dexbot default template to generate trading strategy configuration and start scripts. Trading pairs are for now configure by default with Litecoin.
 
 This process could take some few seconds, as it is searching for all wallets configuration files to update it according to blocknet decentralized exchange system compatibility.
 
