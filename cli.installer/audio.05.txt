@@ -1,3 +1,3 @@
-Next is to install BLOCKDX which is graphical user interface for decentralized exchange, which could be used to watch automatic trading bots activity and also could be used for manual trading like on standard exchanges.
+Next is to install Block DX which is graphical user interface for decentralized exchange, which could be used to watch automatic trading bots activity and also could be used for manual trading like on standard exchanges.
 
 This process could take a while because it will download the exchange app itself.
