@@ -1,28 +1,28 @@
-So lets take a look what we could find in dexsetup root directory.
+So lets take a look what we could find in dex-setup root directory.
 
-All components here have own separated directory.
+All components have own separated directory here.
 
-In contrast with other systems architectures which are using virtualization, containers, docker or whatsoever, all dex-setup components are existing as main file-system directories configured to be able to run same as in native operating system environment and same as isolated in native kernel features by firejail custom profiles and network isolation by tor by proxy-chains. It means every running component can not see other user files or other components files, for example Bitcoin wallet component can see chain directory which is by default dot bitcoin and bitcoin binary file.
+In contrast with other systems architectures which are using virtualization, containers, docker or whatsoever, all dex-setup components are existing as main file-system directories configured to look like running on native operating system environment, but at same time isolated by native kernel features by firejail custom profiles and also network isolation by tor by proxy-chains. It means every running component can not see other user files or other components files, for example Bitcoin wallet component can see chain directory which is by default dot bitcoin and bitcoin binary file.
 
 Lets take a look what could be found for example in Blocknet wallet directory.
   First is binary files directory where all build binary files are stored. As command line wallet interface, wallet daemon and wallet with graphical user interface.
   Next is that every wallet profile has own CLI directory where very useful predefined auto-complete commands are stored.
-  There is also directory git source, where all wallet source code been downloaded and compiled.
-  There is also package directory which is used in case when wallet is not build but rather downloaded and extracted from package.
+  There is also git source directory, where all wallet source code been downloaded and compiled.
+  There is also package directory which is used in case when wallet is not build but rather downloaded and extracted as binary package.
 
   What we could see next are two profile files used to enter secure development environment.
-  And last is that every generated wallet profile as DAO profile, staking profile and decentralized exchange wallet profile.
+  And all other files are generated wallet profile as DAO profile, staking profile and decentralized exchange wallet profile.
 
-Lets back up into main directory where we could find a decentralized exchange bot directory with all generated trading strategies.
-And if we switch directory to git source code, there could be found trading configuration files itself.
+Lets back up into main directory where we could find a decentralized exchange bot directory with all run scripts for generated trading strategies.
+And if we switch git source code directory, there could be found trading configuration files itself.
 
-Let back up again into main directory where could be found main dex-setup framework directory which contains all needed scripts for manual customization and manual management.
+Let back up again into main directory where could be found main dex-setup framework directory which contains all needed scripts for manual component customization and manual management.
 Usually users which not need special custom profiles will never touch dex-setup framework itself rather running dex-setup command line installer repeatedly.
 
 In main directory there could be also found Block-DX, the graphical user interface for this decentralized exchange system.
 
 As mostly everything been explained, lets start our decentralized exchange instance for the first time.
-   Instead of starting all components manually inside desktop environment one by one by mouse double clicks, the dex-setup comes with predefined terminal screen multiplexer start script which biggest advantage is that all components becomes manageable also very easy by command line interface. User can in real time watch what log printed into console by component. Also dex-setup advanced console interface features allows us to use lot of predefined predefined commands which could be easy added later.
+   Instead of starting all components manually inside desktop environment one by one by mouse double clicks, the dex-setup generates for us terminal screen multiplexer start script which biggest advantage is that all components becomes manageable also very easy by command line interface.
 
 So we switch back to installer readme page to find and copy second command used to start environment with support of graphical user interface mode.
 This will take some few seconds.
@@ -31,8 +31,10 @@ As everything been designed to run as user space service, we must learn how to a
    So lets use screen x command to attach to command line service.
    Now we So we use keyboard shortcut to list components and choose which we want to start.
       For example If we would like to use dex-setup just for PIVX staking, so we choose PIVX staking component, we can see here is predefined command, just enter key confirmations is needed.
-      It looks like native PIVX wallet is been started, but in real, everything is started isolated inside system and network sandbox by firejail and tor service.
-
-      But what if we want to use decentralized exchange to trading Blocknet with Litecoin.
-      So we start Blocknet decentralized exchange wallet profile with Litecoin decentralized exchange profile.
+      Lets take a look, it looks like that native PIVX wallet is been started, but in real, everything is started isolated inside system and network sandbox by firejail and tor service.
+      
+      Advance is that we can in real time watch what is printed into log files component by component. Now switch to PIVX command line interface component. What you can see now is that if we push dot and slash and tab keyboard button the dex-setup provides to us lot of predefined commands which could be easy added later by users requests.
+   
+      But what if we want to use decentralized exchange to trade Blocknet with Litecoin.
+      So we start Blocknet and Litecoin decentralized exchange wallet profile first.
       We have to wait until our wallets are synced and also we check and unlock our wallets if encrypted.
