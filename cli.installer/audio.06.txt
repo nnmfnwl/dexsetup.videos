@@ -1,6 +1,6 @@
-Would we like to automatically configure Block DX default profile. Yes, because the default profile would be automatically configured to communicate with default Blocknet decentralized exchange wallet configured from previous step.
+Would we like to automatically configure Block-DX default profile. Yes, because the default profile would be automatically configured to communicate with default Blocknet decentralized exchange wallet configured from previous step.
 
-Would we like to setup Start/stop/update scripts with GNU Screen terminal multiplexer. Yes, because the most easy way to manage whole dexsetup instance is by terminal.
+Would we like to setup start/stop/update scripts with GNU Screen terminal multiplexer. Yes, because the most effective way to manage remote whole dex-setup instance is by terminal.
 
 Optionally, Would we like to install Session ultimate privacy messenger app. Even it is not directly related with decentralized exchange trading, the session privacy messenger is ultimate way to privately communicate and exchange knowledge with anyone over the world without worrying about privacy.
 
