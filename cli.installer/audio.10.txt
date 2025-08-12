@@ -1,3 +1,54 @@
-We would need at least two valid addresses for trading, one Blocknet and one Litecoin address.
-      Those two addresses have to be used to reconfigure generated trading bot scripts with real wallet addresses, because only those funds are used with bot which are already sitting on specified addresses, other addresses funds are not touch. It is highly recommended to use one address per one trading strategy.
+After full wallet synchronization, we would need at least two valid addresses for trading, one Blocknet and one Litecoin address.
+      One important thing to remind again is that dex-bot requires separate coin address per trading strategy, so the running bot instance with strategy uses funds on specific address only, other addresses funds are not touch. It is mandatory to use one address per one trading strategy.
       
+      New addresses can be generated easy by graphical user interface wallet in section receive, set some label and push request payment button. But now we show how to generate new address but build-in console interface by simple command get-new-address dot default, we confirm commands by enter key, we fill name of address and again confirm by enter key to finally get brand new address where funds could be stored for our Blocknet and Litecoin trading strategy.
+      So we could open Litecoin wallet console interface to generate address also here. Lets enter get-new-address dot default command also here. Enter key to confirm. Set label and Enter key to confirm again.
+      
+      After successful address generation we open dex-setup installer web page to find out how to start bot reconfiguration script.
+      So we just copy and paste the command and wait to be asked for addresses we paste into.
+      We do not need to finish whole reconfiguration script as for this example we gonna activate just one trading pair.
+      
+      After reconfiguring bots, Before we first time start dex-bot strategy, we should look at predefined bot configuration and edit options to match our specific requirements
+      
+      So lets go to home directory, open dex-setup, open dex-bot, open git source directory and see all generated strategy configuration files with same prefix.
+      
+      Remember that strategies are not bi-directorial, it means you are able to run just one direction bot which could buy or sell needed asset, also there si possibility to configure bot with asymmetric rules where reason could be very unstable asset. And because we want trading Blocknet with Litecoin in both directions, we have to edit both configuration files.
+      
+      So lets see what it could be found here in configuration files.
+      
+      First is Main RPC authentication settings.
+      Next. Specification of trading pair. So here is BLOCK as Blocknet and LTC as Litecoin.
+      Next. Specification which addresses funds to be used.
+      Next. Set to use funds from specified addresses only.
+      Next. For any reasons if you want keep always some minimal amount of sold asset.
+      Next. Flush canceled orders from trading history every 60 seconds.
+      Next. Specify in which asset are specified the amounts of traded asset.
+      Next. Specify size of first open order and possible minimal size.
+      Next. Specify size of last open order and possible minimal size.
+      Minimal size is very important to set, for example trading Bitcoin at amount of few united states dollars making no sense because transaction fee itself would be much higher than amount send itself. Minimal size is used at three cases, At partial order, At automatic bot order matching and when making order but not enough funds are available to create full size order.
+      
+      Next. What could be important also is how many open orders should bot manage at once.
+      
+      Next is just error handling.
+      
+      Next. Partial orders feature. We want to keep this feature disabled for now. It is not very important now because build in dex-bot automatic order matching do this work for us.
+      
+      Next. What is very important thing to configure. Slide start is which pricing where first order will be placed related to current market price. Two point one means plus one hundred and ten percent of current market price. So, four orders will be placed down to last order with price plus four percent of current market price.
+      
+      Another very interesting and very important functionality which prevent from loosing profit is dynamic spread.
+      This functionality basically means, if some of your open orders are taken, even if price not go up, bot reconfigures every next order higher and higher.
+      Dynamic spread has many options and also ability to be configured with expected exponential price changes.
+      Actual dynamic spread is configured to increase spread by 2 percent every time 6 Block less is found in source address, it means been exchanged. 
+      
+      Next is configuration to set when orders are reopened again. So our bot will reopen accepted orders again only if at least 2 opened orders are accepted by someone or timeout of 300 seconds happen after first order is accepted.
+      
+      Next is configuration when orders are reset.
+            So bot will reset all orders when price changes at least 1 percent at positive way or at least 5 percent at negative way in price.
+            Bot will also reset orders every 600 seconds no matter what.
+            Bot will also reset orders if 3 orders are accepted.
+            
+      Next is also very important to understand configuration which are boundaries.
+            Boundaries specifies maximum and minimal price levels and actions when boundary is reached.
+      
+      
+
