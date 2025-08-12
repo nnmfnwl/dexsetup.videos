@@ -18,7 +18,7 @@ The Tiger VNC remote desktop server.
 The Blocknet fully decentralized interchain service node communication system.
 The Blocknet Xbridge the main API of decentralized exchange system.
 The Dex-Bot decentralized exchange automatic trading bot and Dex-Setup trading strategy templates.
-The Block DX graphical user interface app for decentralized exchange.
+The Block-DX graphical user interface app for decentralized exchange.
 The core node wallets of Bitcoin, Litecoin, Dogecoin, Verge, PIVX, DASH, Lbry Credits, Pocketcoin and Particl.
 The Tor Browser total privacy web browser.
 And the Session privacy messaging app.
