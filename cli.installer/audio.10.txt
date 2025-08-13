@@ -49,7 +49,5 @@ After full wallet synchronization, we would need at least two valid addresses fo
             
       Next is also very important to understand configuration which are boundaries.
             Boundaries specifies maximum and minimal price levels and actions when boundary is reached.
-            This feature could be very useful when operating on very unstable markets, so you could prevent to end up with just one asset which has no liquidity anymore.
-      
-      
-
+            This feature could be very useful when operating on very unstable markets, so it could prevent from ending up with just one asset which has no liquidity or no value anymore.
+            
