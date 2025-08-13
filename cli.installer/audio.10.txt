@@ -33,11 +33,11 @@ After full wallet synchronization, we would need at least two valid addresses fo
       
       Next. Partial orders feature. We want to keep this feature disabled for now. It is not very important now because build in dex-bot automatic order matching do this work for us.
       
-      Next. What is very important thing to configure. Slide start is which pricing where first order will be placed related to current market price. Two point one means plus one hundred and ten percent of current market price. So, four orders will be placed down to last order with price plus four percent of current market price.
+      Next. What is very important thing to configure. Slide start is which pricing where first order will be placed related to current market price. Two point one means plus one hundred and ten percent of current market price. So, our four orders will be placed down to last order with price plus four percent of current market price.
       
       Another very interesting and very important functionality which prevent from loosing profit is dynamic spread.
-      This functionality basically means, if some of your open orders are taken, even if price not go up, bot reconfigures every next order higher and higher.
-      Dynamic spread has many options and also ability to be configured with expected exponential price changes.
+      This functionality basically means, if some of your open orders are taken, even if asset market price wont go up, bot reconfigures every next order higher and higher.
+      Dynamic spread has many options and also ability to be configured to act with exponential price changes, which useful on bull markets.
       Actual dynamic spread is configured to increase spread by 2 percent every time 6 Block less is found in source address, it means been exchanged. 
       
       Next is configuration to set when orders are reopened again. So our bot will reopen accepted orders again only if at least 2 opened orders are accepted by someone or timeout of 300 seconds happen after first order is accepted.
@@ -49,6 +49,7 @@ After full wallet synchronization, we would need at least two valid addresses fo
             
       Next is also very important to understand configuration which are boundaries.
             Boundaries specifies maximum and minimal price levels and actions when boundary is reached.
+            This feature could be very useful when operating on very unstable markets, so you could prevent to end up with just one asset which has no liquidity anymore.
       
       
 
