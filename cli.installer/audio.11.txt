@@ -1,0 +1,29 @@
+Now we are almost ready to start our automatic liquidity and trading bot for the first time.
+
+TODO
+
+At first be sure both traded coins wallet are running, unlocked and fully synced.
+It will be also very useful is to switch to and start Block-DX component.
+It could take few seconds to start Block-DX graphical user interface app for the first time.
+We choose Blocknet Litecoin trading pair.
+
+TODO
+
+Next. We have to switch to pricing proxy component, start it and check for errors.
+The error which could rise is when pricing proxy component gets limited by remote pricing source server, workaround for this could be just restart tor local service.
+
+TODO
+
+Now we can switch to Blocknet Litecoin dex-bot component, but before we start, here are few useful important things about dex-bot script management by arguments.
+   Bot start script has help argument.
+   Bot could be started with no arguments for default trading operations.
+   Bot could be started with cancel-all argument to cancel all orders from all markets and exit.
+   Bot could be started with cancel-market argument to cancel all orders for current market.
+   Bot could be started with cancel-address argument to cancel only those orders which match our trading addresses for current specific bot strategy.
+   Bot could be started with reset argument which has to be used when user adds or removes funds on addresses manually.
+   
+   
+   
+So lets now shows all those arguments in action.
+    Here we start strategy without having funds on our trading addresses.
+    We can see that bot 
