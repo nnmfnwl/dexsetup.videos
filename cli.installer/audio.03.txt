@@ -1,5 +1,5 @@
 Next step is to setup custom wallet profiles which could have even separated chain data directory, so user will be able to run them at same time as other wallet used for decentralized exchange trading.
-  One important thing to remind is that dex-setup and dex-bot requires to configure unique coin address per trading strategy, so the running bot instances are using funds from specific address only.
+   One important thing to remind is that dex-setup and dex-bot requires to configure unique coin address per trading strategy, so the running bot instances are using funds from specific address only.
 
 For example we can choose to also configure standalone blocknet wallet for DAO the decentralized autonomous organization, the governance wallet.
 
