@@ -37,7 +37,8 @@ After full wallet synchronization, we would need at least two valid addresses fo
       
       Another very interesting and very important functionality which prevent from loosing profit is dynamic spread.
       This functionality basically means, if some of your open orders are taken, even if asset market price wont go up, bot reconfigures every next order higher and higher.
-      Dynamic spread has many options and also ability to be configured to act with exponential price changes, which useful on bull markets.
+      Dynamic spread has many options and also ability to be configured to act when expected exponential price changes, which useful on bull markets.
+      
       Actual dynamic spread is configured to increase spread by 2 percent every time 6 Block less is found in source address, it means been exchanged. 
       
       Next is configuration to set when orders are reopened again. So our bot will reopen accepted orders again only if at least 2 opened orders are accepted by someone or timeout of 300 seconds happen after first order is accepted.
