@@ -25,7 +25,7 @@ And the Session privacy messaging app.
 
 Now back from theory into practice.
 
-The most user friendly way how to start with this decentralized exchange system is to setup and configure operating system and components with interactive dex-setup command-line installer which is exactly topic of this tutorial.
+The most user friendly way how to start with this decentralized exchange system is to setup and configure operating system and components with interactive dex-setup command-line installer which is exact topic of this tutorial.
 
 So first we open main web page of dex-setup command line interface installer, scroll down web page little bit to see, how setup dex-setup with cli installer.
 
@@ -33,7 +33,7 @@ Here could be found two options to start installer, for full privacy we choose s
 
 We copy first command used to install and configure base privacy packages.
 
-Now we open terminal on our Debian or Ubuntu server machine, which could be remote or local SSH host or also just a local machine.
+Now we open terminal on our Debian or Ubuntu server machine, which could be remote or local network SSH host or also just a local-host machine.
 
 We paste the command which asks for root or sudo password depending on which is configured to manage our system.
 
