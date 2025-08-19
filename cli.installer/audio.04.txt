@@ -1,7 +1,7 @@
 Next is to configure Dex-Bot the decentralized exchange automatic liquidity and trading bot.
 
-Dex-setup installer contains predefined trading strategy configurations which are applied on predefined dex-bot default template to generate trading strategy configuration and start scripts. Trading pairs are for now configure by default with Litecoin.
+Dex-setup installer contains predefined trading strategy configurations which are merged on predefined dex-bot default template and this way it generates trading strategy configuration and start scripts. All trading pairs are for now configured by default with Litecoin.
 
 This process could take some few seconds, as it is searching for all wallets configuration files to update it according to blocknet decentralized exchange system compatibility.
 
-Remember this is just very basic automatic trading bot configuration. It is advanced and tested but still considered experimental, so it is recommended to use just very small amounts of coins. Expected is to have many different trading startegy configurations per trading pairs based on market conditions. For example when market or trading pair gets volatile to both sides or even just to downtrend, it depends if you are providing liquitiy to save your business or you are going on profit to exist market fast.
+Remember this is just very basic automatic trading bot configuration. It is advanced and tested but still considered experimental, so it is recommended to use just very small amounts of coins to test first. Expected is that we will make many custom different trading strategy configurations per trading pairs based on market conditions. For cases like when trading pair gets volatile, for bear market, for bull market, for long term downtrend, we choose strategy depending on use-case if providing liquidity to start our business or we are willing to profit and exist market fast.
