@@ -1,3 +1,5 @@
+Now, as all selected components been installed and configured and dex-setup installer has successfully finished, before we return back to dex-setup installer page and continue according to instructions, at first lets take a look at newly created dex-setup directory structure and components included.
+
 So lets take a look what we could find in dex-setup root directory.
 
 All components have own separated directory here.
