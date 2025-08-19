@@ -4,4 +4,4 @@ Would we like to setup start/stop/update scripts with GNU Screen terminal multip
 
 Optionally, Would we like to install Session ultimate privacy messenger app. Even it is not directly related with decentralized exchange trading, the session privacy messenger is ultimate way to privately communicate and exchange knowledge with anyone over the world without worrying about privacy.
 
-This process could take a while because it will download the exchange app itself. 
+This process could take a while because it will download, extract and scan for viruses app itself. 
