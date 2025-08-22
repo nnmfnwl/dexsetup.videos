@@ -1,0 +1,7 @@
+After funds been delivered and confirmed, we need to split our funds because every order needs own UTXO the unspent transaction output.
+   The most effective is to use specialized Blocknet commands to split funds into correct size.
+   The DX Split Address command, with first parameter token ticker, which is BLOCK,
+           second parameter is split amount, so as we have hundred Blocknet coins, and we are creating four orders at maximum size of ten,
+               so we could split out funds by twenty, which will make five unspend transaction outputs,
+           last mandatory parameter is address, which is address where funds are already sitting.
+   Now we have to wait until at least one confirmation of our funds split transaction.
