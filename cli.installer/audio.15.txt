@@ -10,4 +10,7 @@ So lets now shows all those arguments in action.
    At first, we start here strategy without having funds on our trading addresses.
    We can see trading bot makes some verifications, checks if pricing proxy component is running.
    Unfortunately as you can see from dex-bot logs there are zero funds and so no order could be created.
-   So we have to stop running dex-bot strategy by Control Z add some funds first.
+   So we have to stop running dex-bot strategy by Control Z add some funds first to our wallet first.
+   So we switch into block dex CLI component to see our address.
+   Or even we could switch to graphical user interface wallet, select menu window, receiving addresses and here we have our address where to send a funds.
+   
