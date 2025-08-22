@@ -1,0 +1,2 @@
+Next. We have to return to CLI management and switch to pricing proxy component, start it and check for errors.
+The error which could rise is when pricing proxy component gets limited by remote pricing source server, workaround for this could be just restart tor local service to switch to another IP address.
