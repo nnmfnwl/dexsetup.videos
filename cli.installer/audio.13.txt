@@ -1,0 +1,3 @@
+Now, It will be very useful to switch to and start Block-DX component as well.
+    It could take few seconds to start Block-DX graphical user interface app for the first time.
+    After app is started we have to switch to correct trading pair which is Blocknet with Litecoin.
