@@ -1,29 +1,54 @@
-Now we are almost ready to start our automatic liquidity and trading bot for the first time.
-
-TODO
-
-At first be sure both traded coins wallet are running, unlocked and fully synced.
-It will be also very useful is to switch to and start Block-DX component.
-It could take few seconds to start Block-DX graphical user interface app for the first time.
-We choose Blocknet Litecoin trading pair.
-
-TODO
-
-Next. We have to switch to pricing proxy component, start it and check for errors.
-The error which could rise is when pricing proxy component gets limited by remote pricing source server, workaround for this could be just restart tor local service.
-
-TODO
-
-Now we can switch to Blocknet Litecoin dex-bot component, but before we start, here are few useful important things about dex-bot script management by arguments.
-   Bot start script has help argument.
-   Bot could be started with no arguments for default trading operations.
-   Bot could be started with cancel-all argument to cancel all orders from all markets and exit.
-   Bot could be started with cancel-market argument to cancel all orders for current market.
-   Bot could be started with cancel-address argument to cancel only those orders which match our trading addresses for current specific bot strategy.
-   Bot could be started with reset argument which has to be used when user adds or removes funds on addresses manually.
-   
-   
-   
-So lets now shows all those arguments in action.
-    Here we start strategy without having funds on our trading addresses.
-    We can see that bot 
+After successful address generation we open dex-setup installer web page to find out how to start bot reconfiguration script.
+      So we just copy and paste the command and wait to be asked for addresses we paste into.
+      We do not need to finish whole reconfiguration script, as for this educational video, we gonna activate just one trading pair.
+      We can push Control and Z to exit bot reconfiguration script.
+      Actually it is just one value changes which are addresses in text configuration file. 
+      
+      After bot reconfiguration, before we first time start dex-bot strategy, we should look at predefined bot configuration and edit options to match our specific requirements.
+      
+      So lets go to home directory, open dex-setup, open dex-bot, open git source directory and see all generated strategy configuration files with same prefix.
+      
+      Remember that every strategy is not bi-directorial, it means you are able to run just one direction bot which could buy or sell needed asset, also this way we introducing possibility to configure bot with asymmetric rules where reasons could be many like very unstable asset. And because we want trading Blocknet with Litecoin in both directions, we have to edit both configuration files.
+      
+      So lets see what it could be found here in configuration files.
+      
+      First is Main RPC authentication settings.
+      Next. Specification of trading pair. So here is BLOCK as Blocknet and LTC as Litecoin.
+      Next. Specification which addresses funds to be used for trading.
+      Next. Set to use funds from specified addresses only.
+      Next. For any reasons if you want keep always some minimal amount of sold asset.
+      Next. Flush canceled orders from trading history every 60 seconds.
+      Next. Specify in which asset are specified the amounts of traded asset.
+      Next. Specify size of first open order and possible minimal size.
+      Next. Specify size of last open order and possible minimal size.
+      Minimal size is very important to set, for example trading Bitcoin at amount of few united states dollars making no sense because transaction fee itself would be much higher than amount send itself. Minimal size is used at three cases, At partial orders, At automatic bot order matching and when making order but not enough funds are available to create full size order.
+      
+      Next. Little more down, what is very important as well is how many open orders should bot manage at once.
+      
+      Next is just error handling.
+      
+      Next. Partial orders feature. We want to keep this feature disabled for now. It is not very important now because build in dex-bot automatic order matching do this work for us.
+      
+      Next. What is very important thing to configure. Slide start is which pricing where first order will be placed related to current market price. Two point one means plus one hundred and ten percent of current market price. So, our four orders will be placed down to last order with price plus four percent of current market price.
+      
+      Another very interesting and very important functionality which prevent from loosing, rather is main profit maker is dynamic spread.
+      This functionality basically means, if some of your open orders are taken, even if asset market price wont go up, bot reconfigures every next order higher and higher.
+      Dynamic spread has many options and also ability to be configured to act with exponential price changes, which useful on bull markets.
+      Actual dynamic spread is configured to increase spread by 2 percent every time 6 Block less is found in source address, it means been exchanged. 
+      
+      Next is configuration to set when orders are reopened again. So our bot will reopen accepted orders again only if at least 2 opened orders are accepted by someone or timeout of 300 seconds happen after first order is accepted.
+      
+      Next is configuration when orders are reset.
+            So bot will reset all orders when price changes at least 1 percent at positive way or at least 5 percent at negative way in price.
+            Bot will also reset orders every 600 seconds no matter what.
+            Bot will also reset orders if 3 orders are accepted.
+            
+      Next is also very important to understand configuration which are boundaries.
+            Boundaries specifies maximum and minimal price levels and actions when boundary is reached.
+            This feature could be very useful when operating on very unstable markets, so it could prevent from ending up with just one asset which has no liquidity or no value anymore.
+            With minimum boundary you can practically set minimal price under which bot will never sold the asset.
+            
+    Next and last are just internal tuning options.
+    One which could be important for us is timing how often price updates are check.
+    
+    
