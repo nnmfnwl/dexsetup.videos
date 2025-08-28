@@ -1,4 +1,4 @@
-Now we use second command to anonymously download dex-setup installer itself from github and start it.
+Now we use second command to anonymously download dex-setup installer itself from git-hub and start it.
 
 It is very small script, the download could take just a few seconds and right after it interactively guides us which components of decentralized exchange to install and configure.
 
@@ -16,13 +16,13 @@ Would we like to install tor and related privacy packages. Yes, because we do no
 
 Would we like to install mandatory command line interface build packages. Yes, because we do not have any other custom build packages installed.
 
-Would we like to install recommended command line interface packages. Yes, because we want all our downloaded data to be check with antivirus also it contains tools like console midnight commander and h-top advanced system monitor and other useful tools.
+Would we like to install recommended command line interface packages. Yes, because we want all our downloaded data to be check with anti-virus also it contains tools like console midnight commander and H-top advanced system monitor and other useful tools.
 
 Would we like to install optional graphical user interface build packages. Yes, because we want to use dex-setup environment also with graphical user interface wallets and tools.
 
 Would we like to install optional graphical user interface packages and support for Tiger VNC server. Yes, because we also want to manage our server by remote desktop, but there could be cases or security reasons why user want to manage dex-setup by local keyboard only.
 
-Would we like to setup tigervnc server user session to start automatically after startup. Yes, because want to control our remote server not only by console but also by VNC over SSH tunnel connection, so we set to configure VNC server with our user profile on server.
+Would we like to setup Tiger-VNC server user session to start automatically after startup. Yes, because want to control our remote server not only by console but also by VNC over SSH tunnel connection, so we set to configure VNC server with our user profile on server.
 
 Now above in terminal log we can see which command for system upgrade will be executed.
 
@@ -38,15 +38,19 @@ We set first password, but view only password is not needed to be configured.
 
 Now installer downloads dex-setup framework itself. It could take a while, but not too long.
 
+As you can see installer finds out that dex-setup is already installed and offers us to update it first. So we answer Yes, because we want to have dex-setup up-to-date.
+
 Optionally if any component is already found, setup asks for its re-installation update.
 
 Would we like to add optimized mate desktop configuration. Yes, because optimized mate desktop configuration will be very useful also on fast local connections because it saves lot of traffic by minimizing desktop effects, which could be problematic even over local wireless connection.
 
+Another component, the proxy-chains seems already configured, would we like to try to reconfigure first? Yes, because configuration could be out-of-date, so why not.
+
 Now we have to choose which wallet to install.
 
-With just one exception of PIVX wallet all other wallets will be downloaded and build from source code.
+With just one exception of Pivx wallet, all other wallets will be downloaded and build from source code.
 
-If we want to dex-setup system to be used as decentralized exchange trading system, the Blocknet wallet as main DEX component is mandatory to install.
+If we want to dex-setup system to be used as decentralized exchange trading system, the Blocknet wallet as main Dex component is mandatory to install.
 
 Every wallet build process takes at average 10 minutes, so video will be skip few times.
 
