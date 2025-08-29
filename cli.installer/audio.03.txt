@@ -2,7 +2,7 @@ Next step is to setup custom wallet profiles which are having separated chain da
 
 For example we can choose to also configure standalone blocknet wallet for DAO the decentralized autonomous organization, the governance wallet.
 
-Installer also have predefined to ask to setup standalone staking profiles for blocknet, pocketcoin and PIVX.
+Installer also have predefined to ask to setup standalone staking profiles for blocknet, pocketcoin and pivx.
 
 We also choose to configure all wallet profiles for decentralized exchange trading.
 
