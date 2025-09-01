@@ -69,9 +69,13 @@ https://github.com/nnmfnwl/dexsetup.cli.installer
     * tab 2 build in audio check
     * tab 3 frames 18, format webm, videocodec vp8, quality 9
     * Enable showclick, Enable Halo
+```
+vokoscreenNG
+```
   * On `client` voice synthesizer page to generate audio from audio.01.txt
 ```
 https://google.com
+https://ai-speaker.net/en
 ```
   * Take care to start audio few seconds after video recording because, it suppose to not record audio correctly
-  * As voice will never be at sync with video at time of recording, we split text into multiple files to be used as stop at the end of sequence and playlist play next when voice needed again for example in VLC player which can be configured to stop after every media played in playlist.
+  * As voice will never be at sync with video at time of recording, we split text into multiple files to be used as stop at the end of sequence and playlist play next when voice needed again for example in VLC player which can be configured to automatically stop every playlist item after been played.
