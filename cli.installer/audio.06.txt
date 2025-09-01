@@ -2,6 +2,8 @@ Next, would we like to automatically configure Block-DX default profile. Yes, be
 
 Would we like to setup start and stop scripts with GNU Screen terminal multiplexer. Yes, because the most effective way to manage remote whole dex-setup instance is by terminal.
 
-Optionally, Would we like to install Session ultimate privacy messenger app. Even it is not directly related with decentralized exchange trading, the session privacy messenger is ultimate way to privately communicate and exchange knowledge with anyone over the world without worrying about privacy.
+Optionally, Would we like to install Session privacy messenger app. Even it is not directly related with decentralized exchange trading, the session privacy messenger is ultimate way to privately communicate and exchange knowledge with anyone over the world without worrying about privacy. Dex-setup even increases Session app privacy, security and also adds ability to run multiple Session user profiles at once.
+
+Session app even could be used to contact developer of dex-setup directly without worrying about your own privacy.
 
 This process could take a while because it will download, extract and also scan app for viruses as well. 
