@@ -24,7 +24,16 @@ apt -y install openssh-server
 ssh user3@10.10.10.10..
 clear
 ```
-  * On `server` remove or backup `~/dexsetup` and `~/.bitcoin` `~/.litecoin` ... they could stay for reinstall or update cases
+  * On `server` remove or backup `dexsetup` related directories to make system clean before tutorial recording starts.
+```
+mv ~/.proxychains/proxychains.conf ~/.proxychains/proxychains.`date --utc +%Y%m%d%H%M%S`.conf
+mv ~/dexsetup/blocknet ~/dexsetup/blocknet.`date --utc +%Y%m%d%H%M%S`
+rm ~/dexsetup/dexsetup/start.screen.instance_default.cli.sh 
+rm ~/dexsetup/dexsetup/start.screen.instance_default.gui.sh 
+rm ~/dexsetup/dexsetup/stop.screen.instance_default.sh 
+rm ~/dexsetup/dexsetup/update.screen.instance_default.sh 
+
+```
   * On `client` open Terminal tab 2 with ssh tunnel to `server` and clear after to be used at time of recording video
 ```
 ssh -L 5923:127.0.0.1:5903 10.10.10.10.. -N
@@ -35,19 +44,23 @@ clear
 remmina -c vnc://127.0.0.1:5923
 clear
 ```
-  * On `client` open web browser tab 1 with page
+  * On `client` open web browser `tab 1` with page
+```
+https://blocknet.org/built-on-blocknet.html
+```
+  * On `client` open web browser `tab 2` with page
 ```
 https://blocknet.org/
 ```
-  * On `client` open web browser tab 2 with page
+  * On `client` open web browser `tab 3` with page
 ```
-https://github.com/nnmfnwl/dexsetup/tree/merge.2025.02.06#list-of-dexsetup-components
-```
-  * On `client` open web browser tab 3 with page
-```
-https://github.com/nnmfnwl/dexsetup/tree/merge.2025.02.06
+https://github.com/nnmfnwl/dexsetup/tree/merge.2025.02.06?tab=readme-ov-file#dexsetup-the-only-true-decentralized-exchange-setup
 ```
   * On `client` open web browser tab 4 with page
+```
+https://github.com/nnmfnwl/dexsetup/tree/merge.2025.02.06?tab=readme-ov-file#list-of-used-components-by-dexsetup
+```
+  * On `client` open web browser tab 5 with page
 ```
 https://github.com/nnmfnwl/dexsetup.cli.installer
 ```
