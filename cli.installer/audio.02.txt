@@ -38,15 +38,13 @@ We set first password, but view only password is not needed to be configured.
 
 Now installer downloads dex-setup framework itself. It could take a while, but not too long.
 
-As you can see installer finds out that dex-setup is already installed and offers us to update it first. So we answer Yes, because we want to have dex-setup up-to-date.
-
-Optionally if any component is already found, setup asks for its re-installation update.
+Because of installer could be started repeatedly, if any component managed by dex-setup is found already installed, setup asks for its re-installation update, same as here we could be asked by installer to even update dex-setup itself first. If we did not run installer few minutes before, then answering Yes is great idea, because it will make specific component up-to-date.
 
 Would we like to add optimized mate desktop configuration. Yes, because optimized mate desktop configuration will be very useful also on fast local connections because it saves lot of traffic by minimizing desktop effects, which could be problematic even over local wireless connection.
 
-Another component, the proxy-chains seems already configured, would we like to try to reconfigure first? Yes, because configuration could be out-of-date, so why not.
+Dex-setup next configured proxy-chains user-space configuration file, the tool which is used as tor privacy network sand-box layer.
 
-Now we have to choose which wallet to install.
+Next, we have to choose which wallet to install.
 
 With just one exception of Pivx wallet, all other wallets will be downloaded and build from source code.
 
