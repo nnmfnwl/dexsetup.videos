@@ -5,7 +5,7 @@ Now, return back and lets take a look what could be found for example in Blockne
   There is also package directory which is used in case when wallet is not build but rather downloaded and extracted as binary package.
 
   What we could see next are two profile files used to enter secure development environment.
-  And all other files are generated wallet profile as DAO profile, staking profile and decentralized exchange wallet profile.
+  And all other files are generated wallet profile as DAO wallet profile, decentralized exchange wallet profile, and staking wallet profile.
 
 Now lets go back into main directory where we could find a dex-bot a decentralized exchange bot directory with all generated trading strategies scripts.
    And if we switch git source code directory, there could be found trading configuration files itself.
@@ -18,7 +18,7 @@ In main directory there could be also found Block-DX, the graphical user interfa
 As mostly all basics been explained, lets initiate our decentralized exchange instance for the first time.
    Instead of mouse double click one by one all components to start them in desktop environment manually, the dex-setup generates for us terminal screen multiplexer start and stop script which biggest advantage is that all components becomes manageable also very comfortable by command line interface.
 
-So we can double click this graphical user interface start script, or we switch back to installer readme page, find and copy second command used same to start environment with graphical user interface mode support, then we open terminal on our server machine and paste this command in.
+So we can double click this graphical user interface start script, or we switch back to installer readme page, switch to section How to start and connect, navigate and detach from installed dexsetup environment, find and copy second command used to start environment with graphical user interface mode support, then switch back server machine, open terminal, and paste this command in.
    While this command gonna take some few seconds to process, we switch back to installer readme page to read and learn basic commands and shortcuts like.
       How to attach to service command line interface management by command, screen, minus, X.
       How to list and navigate screen tabs with shortcut, Control, A, double quotes.
