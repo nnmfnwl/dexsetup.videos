@@ -16,13 +16,13 @@ Usually users who not need special custom profiles will never touch dex-setup fr
 In main directory there could be also found Block-DX, the graphical user interface for this decentralized exchange system.
 
 As mostly all basics been explained, lets initiate our decentralized exchange instance for the first time.
-   Instead of mouse double click one by one all components to start them in desktop environment manually, the dex-setup generates for us terminal screen multiplexer start script which biggest advantage is that all components becomes manageable also very comfortable by command line interface.
+   Instead of mouse double click one by one all components to start them in desktop environment manually, the dex-setup generates for us terminal screen multiplexer start and stop script which biggest advantage is that all components becomes manageable also very comfortable by command line interface.
 
-So we switch back to installer readme page to find and copy second command used to start environment with support of graphical user interface mode.
-While this command gonna take some few seconds, we switch back to installer readme page to read and learn basic commands and shortcuts like.
-   How to attach to service command line interface management by command, screen, minus, X.
-   How to list and navigate screen tabs with shortcut, Control, A, double quotes.
-   And also also how to detach from while keep all components running in background by shortcut, Control, A, D. 
+So we can double click this graphical user interface start script, or we switch back to installer readme page, find and copy second command used same to start environment with graphical user interface mode support, then we open terminal on our server machine and paste this command in.
+   While this command gonna take some few seconds to process, we switch back to installer readme page to read and learn basic commands and shortcuts like.
+      How to attach to service command line interface management by command, screen, minus, X.
+      How to list and navigate screen tabs with shortcut, Control, A, double quotes.
+      And also how to detach from while keep all components running in background by shortcut, Control, A, D. 
 
    Now, switch back to terminal and use screen, minus, X, command to attach to decentralized exchange command line service.
    Now we use mentioned keyboard shortcuts to navigate components and choose which we want to start.
