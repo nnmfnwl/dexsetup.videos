@@ -1,4 +1,8 @@
-Now, After a while, once our wallets are fully synchronized, we would need at least two valid addresses for trading, one Blocknet and one Litecoin address.
+Next we go back to installer readme page, and we switch to section five, one, two, where could be found a hits how to check for wallets block-chains to be fully synced. Here could be found best practice instruction how to encrypt, backup and unlock wallets as well. But this is not purpose of this tutorial.
+      
+      It is very important to understand that dex-setup is designed for setting up truly fully decentralized exchange backend, because of this we focus primary on setting up system with full nodes which are technically most important components to call this system decentralized. Dex-setup for now does not support lite components trading setup, it will be added later. But there already exists alternative called Blocknet A I O monitor, which is less advanced lite setup that works for all operating systems.
+      
+Once our wallets are fully synchronized, we would need at least two valid addresses for trading, one Blocknet and one Litecoin address.
       One important thing to remind is that dex-bot requires separate coin address per trading strategy, so the running bot instance with strategy uses funds on specific address only, other addresses funds are not touch. It is mandatory to use one address per one trading strategy.
       
       New addresses can be generated easy by graphical user interface wallet in section receive, set some label and push request payment button. But now we show how to generate new address by build-in console interface, by simple command, dot, slash, get-new-address, dot, default, we confirm command by enter key, we will be asked to fill address name and again confirm by enter key to finally get brand new address where funds could be stored for our Blocknet and Litecoin trading strategy.
