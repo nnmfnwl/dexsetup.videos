@@ -11,12 +11,11 @@ We return back to dex-setup installer page, switch to section two, Remote deskto
    Then we return back to dex-setup installer page. And copy second command used to remote view and manage server desktop by Remmina VNC client.
    It is just example command for Linux users and Remmina VNC client, but you are free to use any VNC client as well.
 
-   Server authorization to VNC remote desktop requires password we set in the beginning of installation.
+   After command confirmation, the server authorization to VNC remote desktop requires password we set in the beginning of installation.
    
-According to section three. we could look at directory structure.
-   At first we can use keyboard shortcut Windows, plus, G to take a look at directory structure and components included.
-
-   So lets take a look what we could find in main dex-setup root directory.
+Next. We return back to dex-setup installer page, and switch to section three. The directory structure.
+   Instead of using below commands, we switch back to server VNC remote desktop.
+   And we can use keyboard shortcut Windows, plus, G to take a look at directory structure and components included found in dex-setup the root directory of our environment.
 
    As you can see, all components having separated directory.
 
