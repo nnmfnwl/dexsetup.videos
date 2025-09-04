@@ -1,4 +1,4 @@
-Now we use second command to anonymously download dex-setup installer itself from git-hub and start it.
+While system update is happening we can switch back to dex-setup installer web page and copy second command that will be used to anonymously download dex-setup installer itself from git-hub and start it.
 
 It is very small script, the download could take just a few seconds and right after it interactively guides us which components of decentralized exchange to install and configure.
 
@@ -6,7 +6,7 @@ Even if we answer yes to install and configure all components, it doesn't matter
 
 Also at any time we can run this installer again to install, update or reconfigure just specific needed components.
 
-Every possible interactive question have two specific arguments which could be used to skip installer interactivity and use it in automatization deployment scripts.
+Every possible interactive question have two specific arguments which could be used to skip installer interactivity and use installer in automatic deployment scripts or task for specific purposes same like been explained in section seven examples.
 
 So our first step is to accept MIT license agreement to continue with this installer. Just by pushing Y key.
 
@@ -50,8 +50,8 @@ With just one exception of Pivx wallet, all other wallets will be downloaded and
 
 If we want to dex-setup system to be used as decentralized exchange trading system, the Blocknet wallet as main Dex component is mandatory to install.
 
-Every wallet build process takes at average 10 minutes, so video will be skip few times.
+Every wallet build process takes at average 10 minutes, so video will be skip few times and if wallet is detected as already been installed, then we skip the re-installation step.
 
 Process let us know by finished success or with error.
 
-Even if some wallets installation fails, don't worry, the installer could be started again later with just one specific step to setup missing wallet.
+Even if some wallets installation fails, don't worry, the installer could be started again later with just one specific step to setup missing wallet, Examples to install or reinstall specific wallet could be found in section seven.
