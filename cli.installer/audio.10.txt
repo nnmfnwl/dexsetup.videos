@@ -1,10 +1,20 @@
-Next we go back to installer readme page, and we switch to section five, one, two, where could be found a hits how to check for wallets block-chains to be fully synced. Here could be found best practice instruction how to encrypt, backup and unlock wallets as well. But this is not purpose of this tutorial.
-      
-      It is very important to understand that dex-setup is designed for setting up truly fully decentralized exchange backend, because of this we focus primary on setting up system with full nodes which are technically most important components to call this system decentralized. Dex-setup for now does not support lite components trading setup, it will be added later. But there already exists alternative called Blocknet A I O monitor, which is less advanced lite setup that works for all operating systems.
-      
-Once our wallets are fully synchronized, we would need at least two valid addresses for trading, one Blocknet and one Litecoin address.
-      One important thing to remind is that dex-bot requires separate coin address per trading strategy, so the running bot instance with strategy uses funds on specific address only, other addresses funds are not touch. It is mandatory to use one address per one trading strategy.
-      
-      New addresses can be generated easy by graphical user interface wallet in section receive, set some label and push request payment button. But now we show how to generate new address by build-in console interface, by simple command, dot, slash, get-new-address, dot, default, we confirm command by enter key, we will be asked to fill address name and again confirm by enter key to finally get brand new address where funds could be stored for our Blocknet and Litecoin trading strategy.
+Next we go back to installer readme page, and we switch to section five, one, two, where could be found a hits how to check wallets to be fully synced. Here could be found best practice instruction how to encrypt, backup and unlock wallets as well. But this is not purpose of this tutorial.
+   
+   It is very important to understand that dex-setup is designed for setting up truly fully decentralized exchange backend, because of this we focus primary on setting up system with full nodes which are technically most important components to call this system decentralized. Dex-setup for now does not support lite components trading setup, it will be added later. But there already exists alternative called Blocknet A I O monitor, which is less advanced lite setup that works for all operating systems.
 
-      Next open also Litecoin wallet console interface to generate address as well. Lets enter same get-new-address, dot, default, command also here. Enter key to confirm. Set label and confirm by enter key again. Sometimes it could take a little seconds for address to be generated.
+Once our wallets are fully synchronized, we can switch to next section five, two, one, the Mandatory finalization and tuning Blocknet Litecoin strategy one.
+   After successful strategy installation, re-installation or update, it must be finalized manually by text editor to be able to be used, because it must be always specified trading address per bot strategy.
+
+   So we copy below command used to open strategy configuration files by geany editor, To find mentioned two configuration lines sections with addresses.
+   We switch back to VNC client. And paste command into terminal. We scroll down little bit and see the missing address configuration values.
+   But what are we missing now are valid addresses. One important thing to remind is that dex-bot requires separate coin address per trading strategy, so the running bot instance with strategy uses funds on specific address only, other addresses funds are not touch. It is mandatory to use one address per one trading strategy.
+      
+So we have to switch back to installer readme page to section, five, two, two, the additional resource for Mandatory finalization and tuning Blocknet Litecoin strategy one.
+   Here we can find two options to generate new wallet addresses, by using GUI menu, or component CLI by using simple command, dot, slash, get, new, address, dot, default.
+   So we copy and go back to VNC client and switch to command line interface component of Blocknet wallet.
+   So we generate new address by build-in console interface, we paste and confirm command with enter key, we will be asked to fill address name and again confirm by enter key to finally get brand new address where funds could be stored for our Blocknet and Litecoin trading strategy.
+
+   Next, we open Litecoin wallet console interface to generate new address as well. Lets enter same get-new-address, dot, default, command also here. Enter key to confirm. Set label and confirm by enter key again. Sometimes it could take a little seconds for address to be generated.
+
+   After successful address generation we switch to already opened text editor to update wallet addresses on both strategy configuration files.
+   So we just copy and paste generated addresses to finalize the strategy in both configuration files.
