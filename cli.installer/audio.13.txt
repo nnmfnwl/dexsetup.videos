@@ -1,3 +1,13 @@
-Now, It will be very useful to switch to and start Block-DX component as well.
-    It could take few seconds to start Block-DX graphical user interface app for the first time.
-    After app is started we have to switch to correct trading pair which is Blocknet with Litecoin.
+Finally we go back to same dex-setup installer page section.
+
+   Here can be found four most important commands for dex-bot strategy management.
+
+   First is to start pricing proxy component which minimizes price gathering when running multiple dex-bot strategies.
+   
+   There are also command examples how to start dex-bot strategy, stop and clean-up dex-bot strategy and also very important to use reset argument to start dex-bot strategy when user manually adds or removes funds from trading dex-bot strategy trading address. 
+
+So now, we return to VNC client and we switch management to pricing proxy component, start it and check for errors.
+
+   The error which could rise is when pricing proxy component gets limited by remote pricing source server, workaround for this could be just restart tor local service to switch to another IP address.
+   
+   Very important for resistance of this decentralized exchange system will be to implement and adopt fully decentralized price providing system directly by blocknet nodes itself, so even if one of nodes would be blocked to gather external center price from centralized point, another node could share this information between nodes as well.
