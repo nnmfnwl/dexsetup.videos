@@ -1,2 +1,26 @@
-Next. We have to return to CLI management and switch to pricing proxy component, start it and check for errors.
-The error which could rise is when pricing proxy component gets limited by remote pricing source server, workaround for this could be just restart tor local service to switch to another IP address.
+Now we can finally switch to Blocknet Litecoin dex-bot component.
+
+   As we can see, here is already predefined command to start one one way trading strategy.
+   
+   But again, before we start, here are few useful important things about dex-bot script management arguments.
+   
+   Bot start script has help argument.
+   Bot could be started with no arguments for default trading operations.
+   Bot could be started with cancel-all argument to cancel all orders from all markets and exit.
+   Bot could be started with cancel-market argument to cancel all orders for current market.
+   Bot could be started with cancel-address argument to cancel only those orders which match our trading addresses for current specific bot strategy.
+   Bot could be started with reset argument which has to be used when we add or remove funds on addresses manually.
+   
+So lets shows  now all those arguments in action.
+
+   At first, we start here strategy without having funds on our trading addresses.
+   
+   After few seconds, we can see that trading bot makes some verifications, checks if pricing proxy component is running.
+   
+   Unfortunately as you can see from dex-bot logs, because of missing funds, no order could be created.
+   
+   So we have to stop running dex-bot strategy by, Control, Z, and add some funds to our wallet first.
+   
+   So we can switch into block dex CLI component to see our address.
+   
+   Or even we could just use graphical user interface wallet, select menu window, receiving addresses and here we have our address where to send a funds.
