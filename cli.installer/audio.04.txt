@@ -1,6 +1,6 @@
 Next is to configure Dex-Bot the decentralized exchange automatic liquidity and trading bot.
 
-Dex-setup installer contains predefined trading strategy configurations which are merged on predefined dex-bot default template and this way it generates trading strategy configurations and start scripts. All trading pairs are for now configured by default with Litecoin.
+Dex-setup framework contains already predefined trading strategy configurations which are merged on default dex-bot configuration template and this way it generates trading strategy configurations and start scripts. All trading pairs are for now configured by default with Litecoin, but community welcome and free to request or add unlimited number of trading pair combinations.
 
 As you can see, if installer finds out that dex-bot strategy already exists, it offers us to update it according to latest predefined configuration.
 Now you have to think twice before answering. If you already customized your trading strategies according your specific requirements, it would be better to answer no, because all your custom configuration changes would be lost. But also if you do not like your own custom trading strategy changes and you can not remember changes you did, it would be good idea to reset all strategy configuration by answering yes.
