@@ -6,6 +6,8 @@ Installer also have predefined to ask to setup standalone staking profiles for b
 
 We also choose to configure all wallet profiles for decentralized exchange trading.
 
-So it configures blocknet, litecoin, bitcoin, verge, dogecoin, pivx, dash, libry, pocketcoin and particl wallet nodes.
+So it configures blocknet, litecoin, bitcoin, verge, dogecoin, pivx, dash, libry credits, pocketcoin and particl wallet nodes.
 
 This process could take some few seconds, as it is analyzing all wallets configuration files to update it according to blocknet decentralized exchange system compatibility.
+
+Don't worry about your already existing wallet configurations, all already compatible values are not touch and incompatible values are commented out.
