@@ -1,14 +1,7 @@
-Now we are almost ready to start our automatic liquidity and trading bot for the first time.
-
-At first be sure both traded coins wallets are running, unlocked and fully synced.
-    So we switch back to command line interface.
-    We find and select Blocknet CLI component first.
-    Now the command which could be used to check if our wallet is fully synced is get-block-chain-info dot basics.
-    And to check if our wallet is unlocked and contains funds is get-wallet-info dot basic.
-    As you can see our wallet is fully synced to last block.
-    Also what you can see our wallet have funds and is unlocked or do not even contain unlock information because is not encrypted.
-    
-    After Blocknet We have to do same checks with Litecoin wallet.
-    
-    Obviously we can make this checks just by one second look at graphical user interfaces of our wallets.
-
+Next we go back to dex-setup installer page, and we switch to next section five, three, Strategy Start, Strategy Stop and Orders Cleaning
+   
+   Down there, is very good advice to start Block-DX the decentralized exchange graphical user interface. So we return back to VNC client to switch to and start block-dx component.
+   It could take few seconds to start Block-DX graphical user interface app for the first time.
+   After app is started we have to switch to correct trading pair, which is Blocknet with Litecoin.
+   
+   As we are here, We can also make little check that our wallets are running, fully synced and unlocked, simply by looking at wallets are not showing synchronization progress bar and there is unlocked icon as well.
