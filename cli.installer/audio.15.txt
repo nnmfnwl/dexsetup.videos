@@ -1,16 +1,11 @@
-Now we can finally switch to Blocknet Litecoin dex-bot component, but again but before we start, here are few useful important things about dex-bot script management by arguments.
-   Bot start script has help argument.
-   Bot could be started with no arguments for default trading operations.
-   Bot could be started with cancel-all argument to cancel all orders from all markets and exit.
-   Bot could be started with cancel-market argument to cancel all orders for current market.
-   Bot could be started with cancel-address argument to cancel only those orders which match our trading addresses for current specific bot strategy.
-   Bot could be started with reset argument which has to be used when we add or remove funds on addresses manually.
+After a while, once funds been delivered and transaction been confirmed, we need to split our funds because every order needs own UTXO the unspent transaction output.
+
+   The most effective is to use specialized Blocknet commands to split funds into correct size.
    
-So lets now shows all those arguments in action.
-   At first, we start here strategy without having funds on our trading addresses.
-   We can see trading bot makes some verifications, checks if pricing proxy component is running.
-   Unfortunately as you can see from dex-bot logs there are zero funds and so no order could be created.
-   So we have to stop running dex-bot strategy by Control Z add some funds first to our wallet first.
-   So we switch into block dex CLI component to see our address.
-   Or even we could switch to graphical user interface wallet, select menu window, receiving addresses and here we have our address where to send a funds.
+   The command, dot, slash, DX, Split, Address,
+      with first parameter token ticker, which is BLOCK,
+      second parameter which is split amount,
+         so as we have hundred Blocknet coins, and we are creating four orders at maximum size of ten, so we could split our funds by twenty, which will make five unspent transaction outputs,
+      last mandatory parameter is address, which is address where funds are already sitting.
    
+   Now we have to wait for while until at least one confirmation of our funds split transaction.
