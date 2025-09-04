@@ -1,4 +1,4 @@
-Next, related to tor browser, would we like to auto-configure tor-browser default profile. If we in previous step installed tor-browser, it is recommended to configure or reconfigure default profile.
+Next, related to tor browser, would we like to auto-configure tor-browser default profile. If we in previous step installed tor-browser, it is recommended to configure default profile.
 
 Process of generating default tor-browser profile could take few seconds depending on machine storage speed.
 
@@ -9,14 +9,14 @@ We return back to dex-setup installer page, switch to section two, Remote deskto
    So we copy first command. We open terminal and paste command but before confirmation, we update it according our server IP address.
 
    Then we return back to dex-setup installer page. And copy second command used to remote view and manage server desktop by Remmina VNC client.
-   It is just example command for Linux users and Remmina VNC client, but you are free to use any VNC client as well.
+   It is just example command for Linux users who use Remmina VNC client, but you are free to use any VNC client as well.
 
    After command confirmation, the server authorization to VNC remote desktop requires password we set in the beginning of installation.
    
 Next. We return back to dex-setup installer page, and switch to section three. The directory structure.
-   Instead of using below commands, we switch back to server VNC remote desktop.
+   Instead of using below commands, we can back to server VNC remote desktop.
    And we can use keyboard shortcut Windows, plus, G to take a look at directory structure and components included found in dex-setup the root directory of our environment.
 
    As you can see, all components having separated directory.
 
-In contrast with other systems architectures which are using virtualization, containers, docker or whatsoever, all dex-setup components are existing as main file-system directories configured to look like running on native operating system environment, but at same time isolated by native kernel features by firejail custom profiles and also network isolation by tor by proxy-chains. It means every running component can not see other user files or other components files, for example running Bitcoin wallet component can see read-only executable bit-coin wallet binary file and chain directory which is home directory file by default as dot, bit-coin.
+In contrast with other systems architectures which are using virtualization, containers, docker or whatsoever, all dex-setup components are existing as main file-system directories and configured when running to look as native operating system environment, but at same time isolated by native kernel features by firejail custom profiles and also network isolation by tor by proxy-chains. It means every running component can not see other user files or other components files, for example running Bitcoin wallet component can see read-only executable bit-coin wallet binary file which is inside bit-coin, bin directory, and also bit-coin chain directory which is in home directory by default as dot, bit-coin.
