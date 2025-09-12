@@ -88,6 +88,10 @@ https://github.com/nnmfnwl/dexsetup/tree/merge.2025.02.06?tab=readme-ov-file#lis
 ```
 https://github.com/nnmfnwl/dexsetup.cli.installer
 ```
+  * on **`client`** open `web browser tab 6` with page
+```
+https://github.com/tryiou/blocknet_aio_monitor
+```
   * Open `web browser tab 1`
   * Select to `play all audio files in VLC`
   * `Start recording` with vokoscreenNG
