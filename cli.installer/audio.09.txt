@@ -27,11 +27,9 @@ While this command take few seconds to process, we switch back to dex-setup inst
    How to list and navigate screen tabs with shortcut, Control, A, double quotes.
    And also how to detach from while keep all components running in background by shortcut, Control, A, D. 
 
-Now, we can switch back to terminal inside VNC client and use screen, minus, X, command to attach to decentralized exchange command line service. At same time we can switch back to server terminal over SSH connection. And use same screen, minus, X command to attach to service without graphical user interface. Very slow internet connection could be the useful case when we want to manage decentralized exchange service just by terminal without remote desktop.
+Now, we can switch back to terminal inside VNC client and use screen, minus, X, command to attach to decentralized exchange command line service. At same time we can switch back to server terminal over SSH connection. And use same screen, minus, X command to attach to same service without graphical user interface. In case if we are on very slow internet connection, this could be the only possible way to manage decentralized exchange service just by terminal without remote desktop.
 
-Now, we can switch back to terminal inside VNC client and use screen, minus, X, command to attach to decentralized exchange command line service. In case of very slow internet connection it could be useful to manage decentralized exchange service same just by terminal without remote desktop.
-   
-   So, now we use mentioned keyboard shortcut Control, A, double quote, to navigate components and choose which we want to start.
+Now, we can switch back to terminal inside VNC client and use previously mentioned keyboard shortcut Control, A, double quote, to navigate components and choose which we want to start.
    
    For example, we would like to use dex-setup for Pivx staking, so we choose Pivx staking component and just confirm predefined command to start Pivx staking wallet. It seems that native Pivx wallet is started, but literally everything is running isolated inside system and network sandbox by firejail and tor.
    
