@@ -59,6 +59,10 @@ clear
 ```
 dconf reset -f /org/mate/
 ```
+  * on **`server`** close all running components and close screen itself ie like:
+```
+cd ~/dexsetup/dexsetup/ && ./stop.screen.instance_default.sh
+```
   * On **`server`** remove or backup `dexsetup` related directories to make system clean before tutorial recording starts.
 ```
 mv ~/.proxychains/proxychains.conf ~/.proxychains/proxychains.`date --utc +%Y%m%d%H%M%S`.conf
