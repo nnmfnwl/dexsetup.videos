@@ -5,28 +5,25 @@
 https://www.debian.org/
 ```
   * Have **`server`** with `dconf-editor` package installed.
-```
-apt -y install dconf-editor
-```
-  * Have **`client`** machine with `vokoscreenNG` installed.
-```
-apt -y install vokoscreen-ng
-```
   * make **`server`** accessible by SSH by installing openssh server
 ```
-apt -y install openssh-server
+apt -y install dconf-editor openssh-server
+```
+  * Have **`client`** machine with `vokoscreenNG`, `proxychains4`, `tor` and `git` and  installed.
+```
+su - -c "apt -y install vokoscreen-ng proxychains4 tor torsocks git"
 ```
   * On **`client`** open `vokoscreenNG` and configure
-    * tab 1 select full screen
-    * tab 2 build in audio check
-    * tab 3 frames 18, format webm, videocodec vp8, quality 9
+    * tab 1 select area 1280x720
+    * tab 1 build in audio check
+    * tab 1 audiocodec opus
+    * tab 1 frames 23, format webm, videocodec vp8, quality 9
     * Enable showclick, Enable Halo
 ```
 vokoscreenNG
 ```
-  * on **`client`** install `proxychains4`, `tor` and `git` and clone `dexsetup.videos` repository
+  * on **`client`** clone `dexsetup.videos` repository
 ```
-apt -y install proxychains4 tor torsocks git
 mkdir -p ~/dexsetup && cd ~/dexsetup
 proxychains4 git clone https://github.com/nnmfnwl/dexsetup.videos.git
 ```
