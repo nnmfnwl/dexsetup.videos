@@ -4,10 +4,11 @@
 ```
 https://www.debian.org/
 ```
+  * Make **`server`** software packages up to date
   * Have **`server`** with `dconf-editor` package installed.
-  * make **`server`** accessible by SSH by installing openssh server
+  * Make **`server`** accessible by SSH by installing openssh server
 ```
-apt -y install dconf-editor openssh-server
+su - -c "apt update && apt full-upgrade && apt -y install dconf-editor openssh-server"
 ```
   * Have **`client`** machine with `vokoscreenNG`, `proxychains4`, `tor` and `git` and  installed.
 ```
@@ -22,10 +23,9 @@ su - -c "apt -y install vokoscreen-ng proxychains4 tor torsocks git"
 ```
 vokoscreenNG
 ```
-  * on **`client`** clone `dexsetup.videos` repository
+  * on **`client`** clone `dexsetup.videos` repositoryto get audio files or generate audio files yourself from text files.
 ```
-mkdir -p ~/dexsetup && cd ~/dexsetup
-proxychains4 git clone https://github.com/nnmfnwl/dexsetup.videos.git
+mkdir -p ~/dexsetup && cd ~/dexsetup && proxychains4 git clone https://github.com/nnmfnwl/dexsetup.videos.git
 ```
   * On **`client`** voice synthesizer page to generate audio from audio txt files
 ```
@@ -33,7 +33,8 @@ https://google.com
 https://ai-speaker.net/en
 ```
   * As voice will never be at sync with video at time of recording, we split text into multiple files to be used as stop at the end of sequence and playlist play next when voice needed again
-    * for example VLC player can be configured to automatically stop every playlist item after been played.
+    * for example VLC player can be configured to automatically stop every playlist item after been played:
+    * go menu - `tools` - `preferences` - witch bottom `show settings` from `simple` to `all` - select `playlist` tab - check `play and pause`
   
 ### Repeating video tutorial production reset steps
   
@@ -69,27 +70,27 @@ rm ~/dexsetup/dexsetup/start.screen.instance_default.gui.sh
 rm ~/dexsetup/dexsetup/stop.screen.instance_default.sh 
 rm ~/dexsetup/dexsetup/update.screen.instance_default.sh 
 ```
-  * On **`client`** open `web browser tab 1` with page
+  * On **`client`** open `web browser tab 1` with [page](https://blocknet.org/built-on-blocknet.html)
 ```
 https://blocknet.org/built-on-blocknet.html
 ```
-  * On **`client`** open `web browser tab 2` with page
+  * On **`client`** open `web browser tab 2` with [page](https://blocknet.org/)
 ```
 https://blocknet.org/
 ```
-  * On **`client`** open `web browser tab 3` with page
+  * On **`client`** open `web browser tab 3` with [page](https://github.com/nnmfnwl/dexsetup/tree/merge.2025.02.06?tab=readme-ov-file#dexsetup-the-only-true-decentralized-exchange-setup)
 ```
 https://github.com/nnmfnwl/dexsetup/tree/merge.2025.02.06?tab=readme-ov-file#dexsetup-the-only-true-decentralized-exchange-setup
 ```
-  * On **`client`** open `web browser tab 4` with page
+  * On **`client`** open `web browser tab 4` with [page](https://github.com/nnmfnwl/dexsetup/tree/merge.2025.02.06?tab=readme-ov-file#list-of-used-components-by-dexsetup)
 ```
 https://github.com/nnmfnwl/dexsetup/tree/merge.2025.02.06?tab=readme-ov-file#list-of-used-components-by-dexsetup
 ```
-  * On **`client`** open `web browser tab 5` with page
+  * On **`client`** open `web browser tab 5` with [page](https://github.com/nnmfnwl/dexsetup.cli.installer)
 ```
 https://github.com/nnmfnwl/dexsetup.cli.installer
 ```
-  * on **`client`** open `web browser tab 6` with page
+  * on **`client`** open `web browser tab 6` with [page](https://github.com/tryiou/blocknet_aio_monitor)
 ```
 https://github.com/tryiou/blocknet_aio_monitor
 ```
