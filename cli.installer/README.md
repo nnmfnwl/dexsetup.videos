@@ -94,6 +94,7 @@ https://github.com/nnmfnwl/dexsetup.cli.installer
 ```
 https://github.com/tryiou/blocknet_aio_monitor
 ```
+  * Hint if recording with Tor browser: `about:config` switch `privacy.resistFingerprinting.letterboxing.` to disabled
   * Open `web browser tab 1`
   * Select to `play all audio files in VLC`
   * `Start recording` with vokoscreenNG
