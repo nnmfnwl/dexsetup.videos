@@ -46,7 +46,7 @@ Dex-setup next configured proxy-chains user-space configuration file, the tool w
 
 Next, we have to choose which wallet to install.
 
-With just one exception of Pivx wallet, all other wallets will be downloaded and build from source code.
+With just exception of Blocknet and Pivx wallets, all other wallets will be downloaded and build from source code.
 
 If we want to dex-setup system to be used as decentralized exchange trading system, the Blocknet wallet as main Dex component is mandatory to install.
 
